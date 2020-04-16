@@ -32,7 +32,7 @@ local ok, err = cartridge.cfg({
     roles = {
         'cartridge.roles.vshard-storage',
         'cartridge.roles.vshard-router',
-        'app.roles.custom',
+        'app.roles.rabbitmq-consumer',
     },
     cluster_cookie = 'rabbitmq-tarantool-test-app-cluster-cookie',
 })
